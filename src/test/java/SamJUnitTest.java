@@ -17,12 +17,12 @@ public class SamJUnitTest {
     @Test
     void secondTest() {
         System.out.println("###  secondTest");
-        Assertions.assertTrue(3 > 2);
+        Assertions.assertTrue(5 > 2);
     }
     @Test
     void treeTest() {
         System.out.println("###  treeTest");
-        Assertions.assertTrue(3 > 2);
+        Assertions.assertTrue(4 < 5);
     }
 
 }
