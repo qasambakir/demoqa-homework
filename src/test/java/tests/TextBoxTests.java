@@ -25,12 +25,12 @@ public class TextBoxTests {
         $("#gender-radio-1").parent().click();
         $("#userNumber").setValue("7077570510");
         $("#dateOfBirthInput").click(); // open calendar
-        $(".react-datepicker__month-select").$("option[value='9']").click(); // select October
-        $(".react-datepicker__year-select").$("option[value='1995']").click();  // select year
+        $(".react-datepicker__month-select").$("option[value='9']").click();
+        $(".react-datepicker__year-select").$("option[value='1995']").click();
         $(".react-datepicker__day--010").click(); // select day 10
         $("#subjectsContainer input").setValue("hindi").pressEnter();
         $("[for=hobbies-checkbox-1]").click();
-        $("#uploadPicture").uploadFromClasspath("image.png");// download file
+        $("#uploadPicture").uploadFromClasspath("image.png");
         $("#currentAddress").setValue("Sports street 43");
         $("#state").click();
         $("#react-select-3-option-1").click();
@@ -39,16 +39,15 @@ public class TextBoxTests {
         $("#submit").click();
 
         // Проверка введённых данных в таблице
-        $(".table-responsive").shouldHave(
-                text("Sam Baker"),                 // Проверка имени и фамилии
-                text("qabaker@gmail.com"),         // Проверка email
-                text("7077570510"),                // Проверка номера телефона
-                text("10 October,1995"),           // Проверка даты рождения
-                text("Hindi"),                     // Проверка выбранного предмета
-                text("Sports"),                    // Проверка выбранного хобби
-                text("Sports street 43"),          // Проверка введённого адреса
-                text("Uttar Pradesh Lucknow")      // Проверка штата и города
-        );
+        $(".table-responsive").shouldHave(text("Sam Baker"));
+        $(".table-responsive").shouldHave(text("qabaker@gmail.com"));
+        $(".table-responsive").shouldHave(text("7077570510"));                // Проверка номера телефона
+        $(".table-responsive").shouldHave(text("10 October,1995"));           // Проверка даты рождения
+        $(".table-responsive").shouldHave(text("Hindi"));                     // Проверка выбранного предмета
+        $(".table-responsive").shouldHave(text("Sports"));                    // Проверка выбранного хобби
+        $(".table-responsive").shouldHave(text("Sports street 43"));          // Проверка введённого адреса
+        $(".table-responsive").shouldHave(text("Uttar Pradesh Lucknow"));      // Проверка штата и города
+
 
     }
 }
