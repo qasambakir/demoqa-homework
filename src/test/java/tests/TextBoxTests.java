@@ -3,22 +3,17 @@ package tests;
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import java.io.File;
 
-import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Selenide.*;
 
 public class TextBoxTests {
 
     @BeforeAll
     static void beforeAll() {
-        Configuration.browserSize = "1280x720";
+        Configuration.browserSize = "1920x1080";
         Configuration.baseUrl = "https://demoqa.com/automation-practice-form";
         Configuration.pageLoadStrategy = "eager";
-        Configuration.holdBrowserOpen = true;
-        Configuration.timeout = 25000; // 25 секунд
-
     }
 
     @Test
@@ -34,15 +29,26 @@ public class TextBoxTests {
         $(".react-datepicker__year-select").$("option[value='1995']").click();  // select year
         $(".react-datepicker__day--010").click(); // select day 10
         $("#subjectsContainer input").setValue("hindi").pressEnter();
-        $(byText("Sports")).click(); // click checkbox "Sports"
-        $("#uploadPicture").uploadFile(new File("C:\\Projects\\image.png"));
+        $("[for=hobbies-checkbox-1]").click();
+        $("#uploadPicture").uploadFromClasspath("image.png");// download file
         $("#currentAddress").setValue("Sports street 43");
-        $("#state").click(); // open list
-        $(byText("Uttar Pradesh")).click(); // select state
+        $("#state").click();
+        $("#react-select-3-option-1").click();
         $("#city").click();
-        $(byText("Lucknow")).click(); // select state
-        $("#submit").click(); // send info
+        $("#react-select-4-option-1").click();
+        $("#submit").click();
 
+        // Проверка введённых данных в таблице
+        $(".table-responsive").shouldHave(
+                text("Sam Baker"),                 // Проверка имени и фамилии
+                text("qabaker@gmail.com"),         // Проверка email
+                text("7077570510"),                // Проверка номера телефона
+                text("10 October,1995"),           // Проверка даты рождения
+                text("Hindi"),                     // Проверка выбранного предмета
+                text("Sports"),                    // Проверка выбранного хобби
+                text("Sports street 43"),          // Проверка введённого адреса
+                text("Uttar Pradesh Lucknow")      // Проверка штата и города
+        );
 
     }
 }
