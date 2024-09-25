@@ -6,9 +6,10 @@ import pages.FormAutomationPage;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 
-public class FormAutomationTests extends BaseTestSetup {
+public class FormAutomationTests extends TestBase {
 
-    FormAutomationPage formPage = new FormAutomationPage();
+    // Создаём объект страницы формы
+    final FormAutomationPage formPage = new FormAutomationPage();
 
     @Test
     void successfulFormSubmissionTest() {
@@ -33,7 +34,8 @@ public class FormAutomationTests extends BaseTestSetup {
                 .checkFormResult("Subjects", "Hindi")
                 .checkFormResult("Hobbies", "Sports")
                 .checkFormResult("Address", "Sports street 43")
-                .checkFormResult("State and City", "Uttar Pradesh Lucknow");
+                .checkFormResult("State and City", "Uttar Pradesh Lucknow")
+                .checkFormResult("Picture", "image.png");
     }
 
     @Test
@@ -45,8 +47,13 @@ public class FormAutomationTests extends BaseTestSetup {
                 .fillPhoneNumber("9876543210")
                 .submitForm();
 
+        // Проверка, что форма отправилась, и значения были заполнены корректно
         $(".modal-dialog").should(appear);
         $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
+
+        formPage.checkFormResult("Student Name", "Test Testov")
+                .checkFormResult("Mobile", "9876543210")
+                .checkFormResult("Gender", "Male"); // Добавляем проверку заполненных полей
     }
 
     // Негативный тест: Поле Gender не выбрано
@@ -65,8 +72,8 @@ public class FormAutomationTests extends BaseTestSetup {
                 .selectStateAndCity("Uttar Pradesh", "Lucknow")
                 .submitForm();
 
-        // Проверка, что форма не отправилась, т.к. "Gender" не был выбран
-        $(".modal-dialog").shouldNot(appear); // Модальное окно не должно появить
+        // Проверка, что форма не отправляется
+        $(".modal-dialog").shouldNot(appear);
     }
 
     // Негативный тест: Поле Last Name не заполнено
