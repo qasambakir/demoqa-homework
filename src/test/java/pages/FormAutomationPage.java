@@ -103,6 +103,12 @@ public class FormAutomationPage {
         return this;
     }
 
+    public FormAutomationPage checkFormSubmissionSuccess() {
+        $(".modal-dialog").should(appear);
+        $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
+        return this;
+    }
+
     public FormAutomationPage checkFormResult(String key, String value) {
         $(".table-responsive").$(byText(key)).parent().shouldHave(text(value));
         return this;

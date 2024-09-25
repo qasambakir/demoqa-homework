@@ -49,10 +49,8 @@ public class FormAutomationTests extends TestBase {
                 .submitForm();
 
         // Проверка успешной отправки
-        $(".modal-dialog").should(appear);
-        $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
-
-        formPage.checkFormResult("Student Name", "Test Testov")
+        formPage.checkFormSubmissionSuccess()
+                .checkFormResult("Student Name", "Test Testov")
                 .checkFormResult("Mobile", "9876543210")
                 .checkFormResult("Gender", "Male");
     }
