@@ -8,8 +8,8 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 public class FormAutomationPage {
-    // Локаторы для элементов формы
-    private SelenideElement firstNameInput = $("#firstName"),
+
+    private final SelenideElement firstNameInput = $("#firstName"),
             lastNameInput = $("#lastName"),
             userEmailInput = $("#userEmail"),
             genderWrapper = $("#genterWrapper"),
@@ -23,8 +23,7 @@ public class FormAutomationPage {
             cityDropdown = $("#city"),
             submitButton = $("#submit");
 
-    // Инициализация компонента для выбора даты
-    DateSelectorComponent dateSelector = new DateSelectorComponent();
+    final DateSelectorComponent dateSelector = new DateSelectorComponent();
 
     // Открытие страницы формы
     public FormAutomationPage openFormPage() {
