@@ -65,7 +65,6 @@ public class FormAutomationTests extends TestBase {
                 .submitForm();
 
         // Проверка, что форма не отправляется
-        $(".modal-dialog").shouldNot(appear);
         formPage.checkFormNotSubmitted();
     }
 }

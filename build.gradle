@@ -17,10 +17,3 @@ dependencies {
 test {
     useJUnitPlatform()
 }
-sourceSets {
-    test {
-        resources {
-            srcDir 'src/test/resources'
-        }
-    }
-}
