@@ -17,7 +17,7 @@ public class FormAutomationPage {
             userNumberInput = $("#userNumber"),
             dateInput = $("#dateOfBirthInput"),
             subjectInput = $("#subjectsContainer input"),
-            hobbyCheckbox = $("[for=hobbies-checkbox-1]"),
+            hobbiesWrapper = $("#hobbiesWrapper"),
             uploadPictureInput = $("#uploadPicture"),
             addressInput = $("#currentAddress"),
             stateDropdown = $("#state"),
@@ -70,8 +70,8 @@ public class FormAutomationPage {
         return this;
     }
 
-    public FormAutomationPage selectHobby() {
-        hobbyCheckbox.click();
+    public FormAutomationPage selectHobby(String hobby) {
+        hobbiesWrapper.$(byText(hobby)).click();
         return this;
     }
 

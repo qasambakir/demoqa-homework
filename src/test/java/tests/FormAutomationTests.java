@@ -20,7 +20,7 @@ public class FormAutomationTests extends TestBase {
                 .fillPhoneNumber("7077570510")
                 .setBirthDate("October", "1995", "10")
                 .setSubject("Hindi")
-                .selectHobby()
+                .selectHobby("Sports")
                 .uploadPicture("image.png")
                 .setAddress("Sports street 43")
                 .selectStateAndCity("Uttar Pradesh", "Lucknow")
