@@ -17,14 +17,14 @@ public class FormAutomationFakerTests extends TestBase {
     String gender = RandomUtils.getRandomGender();
     String phoneNumber = faker.phoneNumber().subscriberNumber(10);
     String address = faker.address().streetAddress();
-    String birthDay = "10";
-    String birthMonth = "October";
-    String birthYear = "1995";
+    String birthMonth = RandomUtils.getRandomBirthMonth();
+    String birthYear = RandomUtils.getRandomBirthYear();
+    String birthDay = RandomUtils.getRandomBirthDay();
     String subject = RandomUtils.getRandomSubject();
     String hobbies = RandomUtils.getRandomHobby();
-    String state = "Uttar Pradesh";
-    String city = "Lucknow";
-    String picturePath = "image.png";
+    String state = RandomUtils.getRandomState();
+    String city = RandomUtils.getRandomCity(state);
+    String picturePath = RandomUtils.getRandomPicturePath();
 
     @Test
     void successfulFormSubmissionTest() {
@@ -32,10 +32,10 @@ public class FormAutomationFakerTests extends TestBase {
                 .fillFirstName(firstName)
                 .fillLastName(lastName)
                 .fillEmail(email)
-                .selectGender(gender) // Используем сгенерированный пол
+                .selectGender(gender)
                 .fillPhoneNumber(phoneNumber)
                 .setBirthDate(birthMonth, birthYear, birthDay)
-                .setSubject(subject) // Используем сгенерированный предмет
+                .setSubject(subject)
                 .selectHobby(hobbies)
                 .uploadPicture(picturePath)
                 .setAddress(address)
