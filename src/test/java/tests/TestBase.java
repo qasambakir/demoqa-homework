@@ -18,5 +18,6 @@ public class TestBase {
     void afterEach() {
         Selenide.closeWebDriver();
     }
+
 }
 
