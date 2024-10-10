@@ -61,7 +61,7 @@ public class ParameterizedFormTests extends TestBase {
 
     @Disabled("Временное отключение теста")
     @Test
-    void registrationTestForJaneSmith() {
+    void registrationForJaneSmithTest() {
         String firstName = "Jane";
         String lastName = "Smith";
         String email = "jane.smith@example.com";
