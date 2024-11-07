@@ -10,6 +10,7 @@ public class FormAutomationTests extends TestBase {
 
     final FormAutomationPage formPage = new FormAutomationPage();
 
+
     @Test
     void successfulFormSubmissionTest() {
         formPage.openFormPage()

@@ -1,8 +1,6 @@
 package tests;
 
 import com.github.javafaker.Faker;
-import helpers.Attach;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import pages.FormAutomationPage;
 import utils.RandomUtils;
@@ -12,13 +10,7 @@ public class FormAutomationFakerTests extends TestBase {
     final FormAutomationPage formPage = new FormAutomationPage();
     Faker faker = new Faker();
 
-    @AfterEach
-    void addAttachments() {
-        Attach.screenshotAs("Last screenshot");
-        Attach.pageSource();
-        Attach.browserConsoleLogs();
-        Attach.addVideo();
-    }
+
     // сгенерированные данные
     String firstName = faker.name().firstName();
     String lastName = faker.name().lastName();
