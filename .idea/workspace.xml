@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce52661f-c221-46a2-b391-5aacbaee435c" name="Changes" comment="change jenkins">
-      <change afterPath="$PROJECT_DIR$/src/test/java/properties/tests/SysPropertiesTests.java" afterDir="false" />
+    <list default="true" id="ce52661f-c221-46a2-b391-5aacbaee435c" name="Changes" comment="added jenkins_demoqa">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
@@ -84,42 +84,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.FormAutomationFakerTests.executor": "Run",
-    "Gradle.JunitFiveAutomationTests.executor": "Run",
-    "Gradle.ParameterizedFormTests.emailValidationTest.executor": "Run",
-    "Gradle.ParameterizedFormTests.executor": "Run",
-    "Gradle.ParameterizedFormTests.successfulFormSubmissionTest.executor": "Run",
-    "Gradle.RegistrationAllureTests.executor": "Run",
-    "Gradle.SysPropertiesTests.sysPropertiesFirstTest (1).executor": "Run",
-    "Gradle.SysPropertiesTests.sysPropertiesFirstTest.executor": "Debug",
-    "Gradle.SysPropertiesTests.sysPropertiesTwoTest.executor": "Run",
-    "Gradle.TextBoxTests.executor": "Run",
-    "Gradle.Upgrade Gradle wrapper.executor": "Run",
-    "Gradle.checkselenid.checkselenidetest.executor": "Run",
-    "Gradle.checkselenid.executor": "Run",
-    "Gradle.demoqa-homework [demoqa_test].executor": "Debug",
-    "Gradle.demoqa-homework [property_test].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "jenkins__demoqa",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/JN-PC1/.gradle",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build demoqa-homework.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FormAutomationFakerTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JunitFiveAutomationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ParameterizedFormTests.emailValidationTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ParameterizedFormTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ParameterizedFormTests.successfulFormSubmissionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RegistrationAllureTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SysPropertiesTests.sysPropertiesFirstTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SysPropertiesTests.sysPropertiesFirstTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.SysPropertiesTests.sysPropertiesTwoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TextBoxTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.checkselenid.checkselenidetest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.checkselenid.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.demoqa-homework [demoqa_test].executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.demoqa-homework [property_test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;jenkins__demoqa&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/JN-PC1/demoqa-homework/gradle/jdks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.demoqa-homework [demoqa_test]">
+}</component>
+  <component name="RunManager" selected="Gradle.demoqa-homework [property_test]">
     <configuration name="RegistrationAllureTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -238,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.demoqa-homework [property_test]" />
         <item itemvalue="Gradle.demoqa-homework [demoqa_test]" />
         <item itemvalue="Gradle.SysPropertiesTests.sysPropertiesTwoTest" />
         <item itemvalue="Gradle.SysPropertiesTests.sysPropertiesFirstTest (1)" />
         <item itemvalue="Gradle.RegistrationAllureTests" />
-        <item itemvalue="Gradle.demoqa-homework [property_test]" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731038518174</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added jenkins_demoqa">
+      <option name="closed" value="true" />
+      <created>1732375329818</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732375329818</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,6 +359,10 @@
     <MESSAGE value="change registrationTestForJaneSmith &gt; registrationForJaneSmithTest" />
     <MESSAGE value="added jenkins" />
     <MESSAGE value="change jenkins" />
-    <option name="LAST_COMMIT_MESSAGE" value="change jenkins" />
+    <MESSAGE value="added jenkins_demoqa" />
+    <option name="LAST_COMMIT_MESSAGE" value="added jenkins_demoqa" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/demoqa_homework$demoqa_homework__demoqa_test_.ic" NAME="demoqa-homework [demoqa_test] Coverage Results" MODIFIED="1732375158422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
