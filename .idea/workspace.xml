@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ce52661f-c221-46a2-b391-5aacbaee435c" name="Changes" comment="added browser">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.demoqa-homework [property_test]" />
-        <item itemvalue="Gradle.demoqa-homework [demoqa_test]" />
         <item itemvalue="Gradle.SysPropertiesTests.sysPropertiesTwoTest" />
         <item itemvalue="Gradle.SysPropertiesTests.sysPropertiesFirstTest (1)" />
         <item itemvalue="Gradle.RegistrationAllureTests" />
+        <item itemvalue="Gradle.demoqa-homework [property_test]" />
+        <item itemvalue="Gradle.demoqa-homework [demoqa_test]" />
       </list>
     </recent_temporary>
   </component>
