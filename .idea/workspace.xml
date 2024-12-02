@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce52661f-c221-46a2-b391-5aacbaee435c" name="Changes" comment="added configurations remote">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_11_2024_15_56_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_11_2024_15_56__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_11_2024_15_57_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_11_2024_15_57__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,22 +64,22 @@
     &quot;assignee&quot;: &quot;qasambakir&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/qasambakir/demoqa-homework.git",
-    "accountId": "9d2adfcf-4f7d-4e6f-a96c-a63a706f9b7c"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/qasambakir/demoqa-homework.git&quot;,
+    &quot;accountId&quot;: &quot;9d2adfcf-4f7d-4e6f-a96c-a63a706f9b7c&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "qasambakir",
-    "repository": "demoqa-homework"
+    &quot;owner&quot;: &quot;qasambakir&quot;,
+    &quot;repository&quot;: &quot;demoqa-homework&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/test/java/tests/ParameterizedFormTests.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -91,42 +95,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build demoqa-homework.executor": "Run",
-    "Gradle.FormAutomationFakerTests.executor": "Run",
-    "Gradle.JunitFiveAutomationTests.executor": "Run",
-    "Gradle.ParameterizedFormTests.emailValidationTest.executor": "Run",
-    "Gradle.ParameterizedFormTests.executor": "Run",
-    "Gradle.ParameterizedFormTests.successfulFormSubmissionTest.executor": "Run",
-    "Gradle.RegistrationAllureTests.executor": "Run",
-    "Gradle.SysPropertiesTests.sysPropertiesFirstTest (1).executor": "Run",
-    "Gradle.SysPropertiesTests.sysPropertiesFirstTest.executor": "Debug",
-    "Gradle.SysPropertiesTests.sysPropertiesTwoTest.executor": "Run",
-    "Gradle.TextBoxTests.executor": "Run",
-    "Gradle.Upgrade Gradle wrapper.executor": "Run",
-    "Gradle.checkselenid.checkselenidetest.executor": "Run",
-    "Gradle.checkselenid.executor": "Run",
-    "Gradle.demoqa-homework [demoqa_test].executor": "Coverage",
-    "Gradle.demoqa-homework [property_test].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "#1 on jenkins__demoqa",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/JN-PC1/demoqa-homework/gradle/jdks",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build demoqa-homework.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FormAutomationFakerTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JunitFiveAutomationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ParameterizedFormTests.emailValidationTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ParameterizedFormTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ParameterizedFormTests.successfulFormSubmissionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RegistrationAllureTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SysPropertiesTests.sysPropertiesFirstTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SysPropertiesTests.sysPropertiesFirstTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.SysPropertiesTests.sysPropertiesTwoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TextBoxTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.checkselenid.checkselenidetest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.checkselenid.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.demoqa-homework [demoqa_test].executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.demoqa-homework [property_test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#1 on jenkins__demoqa&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/JN-PC1/demoqa-homework/gradle/jdks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.demoqa-homework [property_test]">
     <configuration name="RegistrationAllureTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -347,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732539198480</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added configurations remote">
+      <option name="closed" value="true" />
+      <created>1732539405966</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732539405966</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
