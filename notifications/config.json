@@ -3,10 +3,10 @@
     "project": "Выполнение 13 урока 30 потока",
     "environment": "demoqa",
     "comment": "comment here @srk400",
-    "reportLink": "https://jenkins.autotests.cloud/job/SB_demoqa_jenkins_12/11/",
+    "reportLink": "https://jenkins.autotests.cloud/job/SB_demoqa_jenkins_12/",
     "language": "en",
     "messenger": "telegram",
-    "allureFolder": "C:/Users/JN-PC1/AppData/Local/Temp/6673337285167494091/allure-report",
+    "allureFolder": "build/allure-report",
     "enableChart": true
   },
   "telegram": {
