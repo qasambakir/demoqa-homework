@@ -42,12 +42,24 @@ test {
     useJUnitPlatform()
 }
 
-tasks.withType(Test) {
-    useJUnitPlatform()
-}
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
 
-task demoqa_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("demoqa")
+    tasks.withType(Test) {
+        useJUnitPlatform()
+        systemProperties(System.getProperties())
+
     }
 }
+
+    task  demoqa_test(type: Test) {
+        useJUnitPlatform {
+            includeTags("demoqa")
+        }
+    }
+
+    task property_test(type: Test) {
+        useJUnitPlatform {
+            includeTags("property")
+        }
+    }

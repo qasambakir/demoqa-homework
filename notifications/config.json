@@ -1,0 +1,17 @@
+{
+  "base": {
+    "project": "Выполнение 13 урока 30 потока",
+    "environment": "demoqa",
+    "comment": "comment here @srk400",
+    "reportLink": "https://jenkins.autotests.cloud/job/SB_demoqa_jenkins_12/",
+    "language": "en",
+    "messenger": "telegram",
+    "allureFolder": "build/allure-report",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "7823674386:AAFjqv6UCFLBgoSScIjWBpVW60D--rfjWUw",
+    "chat": "-1002388440283",
+    "replyTo": ""
+  }
+}
