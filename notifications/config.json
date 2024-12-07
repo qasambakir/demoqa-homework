@@ -6,7 +6,7 @@
     "reportLink": "https://jenkins.autotests.cloud/job/SB_demoqa_jenkins_12/11/",
     "language": "en",
     "messenger": "telegram",
-    "allureFolder": "allure-report",
+    "allureFolder": "C:/Users/JN-PC1/AppData/Local/Temp/6673337285167494091/allure-report",
     "enableChart": true
   },
   "telegram": {
